@@ -1,19 +1,35 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# Meme Generator 🎭
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+A modern React application that allows users to dynamically customize memes by editing top and bottom text fields and fetching random meme templates from the [Imgflip API](https://api.imgflip.com/get_memes).
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could go further with one of our advanced courses 🚀
+---
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## Features
 
-Happy Coding!
+* **Live Text Editing:** Real-time synchronization between input fields and the generated meme preview.
+* **API Integration:** Asynchronously fetches a comprehensive list of popular meme templates using `useEffect` and `fetch`.
+* **Randomized Generation:** Randomly selects and displays a fresh meme template from the fetched dataset every time the generator button is clicked.
+* **React State Management:** Built using React Hooks (`useState`, `useEffect`) to efficiently manage user inputs, fetched template arrays, and current meme states.
+
+---
+
+## Tech Stack
+
+* **React** (v19)
+* **JavaScript** (ES6+)
+* **CSS3**
+* **Imgflip API**
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+### Installation & Running Locally
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
